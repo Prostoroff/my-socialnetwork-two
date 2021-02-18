@@ -1,0 +1,14 @@
+
+.content {
+    grid-area: content;
+    background-color: burlywood;
+    border-radius: 10px;
+}
+
+.item {
+    color: cornflowerblue;
+}
+
+.item.new_posts {
+    color: green;
+}

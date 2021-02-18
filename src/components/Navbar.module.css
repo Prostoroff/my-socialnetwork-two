@@ -1,0 +1,10 @@
+
+.nav {
+    grid-area: navbar;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+}
+
+.item {
+    color: white;
+}
