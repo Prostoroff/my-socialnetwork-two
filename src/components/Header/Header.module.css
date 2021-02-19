@@ -3,9 +3,11 @@
     grid-area: header;
     background-color: cornflowerblue;
     border-radius: 10px;
-    margin-top: 10px; /* делает отступ с учетом grida rows 60px, почему? padding-top не работает, возможно особенность grid  */
+    /*margin-top: 10px;*/ /* делает отступ с учетом grida rows 60px, почему? padding-top не работает, возможно особенность grid  */
 }
 .header img {
-    width: 20px;
-    border-radius: 50px;
+    width: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 35px;
 }

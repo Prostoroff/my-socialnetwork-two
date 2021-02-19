@@ -8,6 +8,7 @@ const MyPosts = () => {
       <div className={`${styles.item} ${styles.new_posts}`}>
         New posts <br/>
         <textarea></textarea>
+        <br/>
         <button> Add Post</button>
       </div>
       <Post message= "Hi, it's my first post" likesCount= "5"/>
