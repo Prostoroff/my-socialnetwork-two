@@ -1,0 +1,7 @@
+.dialog a {
+    text-decoration: none;
+    color: #838daa;
+}
+.dialog .active {
+    color: #8224e3;
+}

@@ -1,4 +1,11 @@
+.myPosts {
+    padding: 10px;
+    border-width: 2px;
+    border-style: solid;
+
+}
 
 .item.new_posts {
     color: green;
+    margin-top: 10px;
 }

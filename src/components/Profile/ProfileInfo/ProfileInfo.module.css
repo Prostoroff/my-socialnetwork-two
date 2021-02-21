@@ -1,0 +1,12 @@
+.profileInfo {
+    border-style: solid;
+    border-width: 2px;
+}
+
+.themeAva img{
+    /*padding: 10px;*/
+}
+
+.descriptionBlock {
+    padding: 10px;
+}

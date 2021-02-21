@@ -1,17 +1,21 @@
 
 .nav {
     grid-area: navbar;
-    background-color: cornflowerblue;
-    border-radius: 10px;
+    background-color: #e7edf2;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #8224e3;
+    /*border-radius: 10px;*/
+    padding: 20px;
 }
 .item{
     padding-top: 20px;
     text-align: center;
 }
 .item a {
-    color: white;
+    color: #838daa;
     text-decoration: none;
 }
 .item .active {
-    color: black;
+    color: #8224e3;
 }
