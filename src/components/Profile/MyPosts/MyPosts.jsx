@@ -9,6 +9,9 @@ const MyPosts = () => {
     {id: 3, message: "I'm happy", likesCount: 34},
   ]
 
+  let postsElements = postsData
+    .map((post) => <Post message={post.message} likesCount={post.likesCount}/>);
+
   return (
     <div className={styles.myPosts}>
       <h3>My posts</h3>
@@ -21,9 +24,7 @@ const MyPosts = () => {
           <button> Add Post</button>
         </div>
       </div>
-      <Post message={postsData[0].message} likesCount={postsData[0].likesCount}/>
-      <Post message={postsData[1].message} likesCount={postsData[1].likesCount}/>
-      <Post message={postsData[2].message} likesCount={postsData[2].likesCount}/>
+      {postsElements}
     </div>
   );
 }
